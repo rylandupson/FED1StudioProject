@@ -1,14 +1,75 @@
-﻿header {
-    background-color: darkred;
-    color: white;
+﻿/*
+   Colors from Adobe Color Wheel/ColorZilla
+    Very Dark Gray: #252526
+    Gray: #737273
+    Blue: #125790
+    Dark Blue: #141527
+*/
+
+/*
+    Google Font Families
+    font-family: 'Knewave', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Roboto+Condensed&display=swap');
+
+body {
+    background-color: #737273;
 }
 
+header {
+    background-color: #252526;
+    color: #FFFFFF;
+}
+
+header h1 {
+        font-family: 'Knewave', cursive;
+    }
+
 main {
-    background-color: ivory;
+    background-color: #F1F1F1;
+    color: #222220;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 footer {
-    background-color: darkred;
-    color:white;
+    background-color: #252526;
+    color: #FFFFFF;
     font-style: italic;
+}
+
+header p, footer {
+    font-family:'Roboto Condensed', sans-serif;
+}
+
+nav a {
+    font-weight: bold;
+    color: #141527;
+}
+
+nav ul {
+    background-color: #125790;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+a {
+    font-family:'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+        padding: .5em 4em;
+        display: block;
+    }
+
+nav a:hover, .selected {
+    background-color: #141527;
+    color: #125790;
+    text-decoration-line: underline;
 }
