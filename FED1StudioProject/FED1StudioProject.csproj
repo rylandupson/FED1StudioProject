@@ -68,6 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="custom.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="images\glenn-van-de-wiel-DWHSc8o8K9Y-unsplash.jpg" />
+    <Content Include="images\KCRA_Logo.png" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
     <Content Include="Classes.html" />
@@ -88,7 +91,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CSS\" />
-    <Folder Include="images\" />
     <Folder Include="scripts\" />
     <Folder Include="stylesheets\" />
   </ItemGroup>

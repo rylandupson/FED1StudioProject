@@ -2,8 +2,7 @@
    Colors from Adobe Color Wheel/ColorZilla
     Very Dark Gray: #252526
     Gray: #737273
-    Blue: #125790
-    Dark Blue: #141527
+    Red: #E51934
 */
 
 /*
@@ -14,12 +13,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Knewave&family=Roboto+Condensed&display=swap');
 
 body {
-    background-color: #737273;
+    background-image: url(images/glenn-van-de-wiel-DWHSc8o8K9Y-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
     background-color: #252526;
-    color: #FFFFFF;
+    color: #E51934;
+    -webkit-text-stroke-width: .01em;
+    -webkit-text-stroke-color: white;
+    padding: .5em;
 }
 
 header h1 {
@@ -27,14 +31,18 @@ header h1 {
     }
 
 main {
-    background-color: #F1F1F1;
+    background-color: RGBA(241, 241, 241, .9);
     color: #222220;
     font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 footer {
     background-color: #252526;
-    color: #FFFFFF;
+    color: #E51934;
+    -webkit-text-stroke-width: .01em;
+    -webkit-text-stroke-color: white;
     font-style: italic;
 }
 
@@ -44,13 +52,12 @@ header p, footer {
 
 nav a {
     font-weight: bold;
-    color: #141527;
+    color: #252526;
 }
 
 nav ul {
-    background-color: #125790;
-    border-top: 2px solid gray;
-    border-bottom: 2px solid gray;
+    background-color: #E51934;
+    padding: .5em;
 }
 
 a {
@@ -69,7 +76,12 @@ nav ul li a {
     }
 
 nav a:hover, .selected {
-    background-color: #141527;
-    color: #125790;
+    background-color: #252526;
+    color: #E51934;
     text-decoration-line: underline;
+}
+
+header img{
+    float: left;
+    margin-right: 2em;
 }
