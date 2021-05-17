@@ -1,0 +1,23 @@
+﻿img {
+    float: left;
+    margin-right: 2em;
+    margin-left: 1em;
+}
+
+main h2{
+    padding-left: 25em;
+}
+
+article img {
+    float: right;
+    margin-right: 2em;
+    margin-left: 1em;
+}
+
+main {
+    padding-bottom: 6em;
+}
+
+article {
+    text-align: right;
+}

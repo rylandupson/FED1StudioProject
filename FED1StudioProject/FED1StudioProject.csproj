@@ -69,8 +69,12 @@
   <ItemGroup>
     <Content Include="custom.css" />
     <Content Include="favicon.ico" />
+    <Content Include="images\brad-stallcup-KQbrEvixICs-unsplash.jpg" />
     <Content Include="images\glenn-van-de-wiel-DWHSc8o8K9Y-unsplash.jpg" />
+    <Content Include="images\kal-visuals-QSdmn5-UI1c-unsplash.jpg" />
     <Content Include="images\KCRA_Logo.png" />
+    <Content Include="images\ralston-smith-sEgodrJdMGw-unsplash.jpg" />
+    <Content Include="index.css" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
     <Content Include="Classes.html" />
